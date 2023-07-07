@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Lobster&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F4FA;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h1{
+    color: #9F142B;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+}
+
+h3{
+    font-family: 'Lobster', cursive;
+    word-spacing: 3px;
+    color: #9F142B;
+    padding: 5px;
+}
+
+/*Section styling - id vs class */
+section{
+    padding: 10px;
+    font-family: 'Bacasime Antique', serif;
+}
+.section-one-and-two{
+    color:#014A8D
+}
+#section-one{
+    background-color: #fdb28e;   
+}
+#section-two{
+    background-color: #091848 ;
+    color: #FFFFFF;
+}
+
+/*LISTS - Change text colour*/
+ol{
+    color: #ff2300; 
+}
+ul{
+    color: #41999c;
+}
+
+/* LINKS */
+a{
+    font-size: 20px;
+}
+
+/* IMAGE Styling */
+img{
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+
+}
+
+.grid {
+    display: inline-grid;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+
+#chonk-categories-diagram{
+    padding: 10px;
+    border: 20px solid;   /* adds boarder to img */
+    border-color: #D22B2B;
+    margin: 20px 10px;  /*top, right, bottom, left */
+}
+
+#eating-cat{
+    border-radius: 50%; /* rounds the edges - here to make a circle */
+    width: 150px;
+    height: 150px;
+}
