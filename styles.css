@@ -10,7 +10,6 @@
 
 body {
     background-color: #F7F4FA;
-    padding: 10px;
     text-align: center;
 
 }
@@ -18,19 +17,25 @@ body {
 h1{
     color: #9F142B;
     font-family: 'Lobster', cursive;
-    font-size: 50px;
+    font-size: 10vw;
     letter-spacing: 5px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 
 h3{
     font-family: 'Lobster', cursive;
+    font-size: 3vw;
     word-spacing: 3px;
     color: #9F142B;
     padding: 5px;
 }
 
-
+/* this doesn't work - not sure why */
+button{
+    color:#9F142B; 
+ }
+ 
 /*Section styling - id vs class */
 section{
     padding: 10px;
@@ -42,12 +47,6 @@ section{
 #section-one{
     background-color: #fdb28e;   
 }
-
-/* this doesn't work - not sure why */
-button{
-   color:#9F142B; 
-}
-
 
 #section-two{
     background-color: #091848 ;
@@ -64,16 +63,18 @@ ul{
     
 }
 
+
 /* LINKS */
 a{
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 /* IMAGE Styling */
 img{
+    max-width: 100%;
     border-radius: 15px;
     height: 400px;
-    width: 400px;
+    width: 300px;
 
 }
 
@@ -96,3 +97,11 @@ img{
     width: 150px;
     height: 150px;
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
