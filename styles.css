@@ -30,6 +30,7 @@ h3{
     padding: 5px;
 }
 
+
 /*Section styling - id vs class */
 section{
     padding: 10px;
@@ -41,6 +42,13 @@ section{
 #section-one{
     background-color: #fdb28e;   
 }
+
+/* this doesn't work - not sure why */
+button{
+   color:#9F142B; 
+}
+
+
 #section-two{
     background-color: #091848 ;
     color: #FFFFFF;
@@ -50,8 +58,10 @@ section{
 ol{
     color: #ff2300; 
 }
+    
 ul{
     color: #41999c;
+    
 }
 
 /* LINKS */
